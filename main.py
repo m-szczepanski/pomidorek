@@ -6,7 +6,7 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 1
+WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 repetitions = 0
@@ -68,7 +68,7 @@ def count_down(count):
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomidorek")
-tomato_bg = PhotoImage(file="./tomato.png")
+tomato_bg = PhotoImage(file="./images/tomato.png")
 window.config(padx=100, pady=50, bg=YELLOW)
 window.iconphoto(False, tomato_bg)
 window.resizable(False, False)
