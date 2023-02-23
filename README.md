@@ -24,7 +24,7 @@ Then the whole cycle keeps repeating itself.<br>
 
 <h3>Button function:</h3><br>
 Button "Start" obviously starts the counter.<br>
-The second one which is the "Reset" button is also self-explanatory. It does what it's name says. It resets the program so you can start learning/working again or finish using the app if you're done with your task.<br><br>
+The second one which is the "Reset" button is also self-explanatory. It does what the name says. It resets the program so you can start learning/working again or finish using the app if you're done with your task.<br><br>
 <h3>Modules used:<br>
 </h3><br>
 tkinter and math
