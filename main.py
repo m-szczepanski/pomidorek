@@ -14,7 +14,6 @@ num_of_ticks = ""
 timer = None
 
 
-# ---------------------------- TIMER RESET ------------------------------- # 
 def reset_timer():
     global repetitions, num_of_ticks
     window.after_cancel(timer)
@@ -25,7 +24,6 @@ def reset_timer():
     num_of_ticks = ""
 
 
-# ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global repetitions
     repetitions += 1
@@ -40,7 +38,6 @@ def start_timer():
         title.config(text=f"Praca", fg=GREEN, font=(FONT_NAME, 32, "bold"))
 
 
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     global num_of_ticks
     count_min = math.floor(count / 60)
@@ -65,7 +62,6 @@ def count_down(count):
             tick.config(text=num_of_ticks)
 
 
-# ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomidorek")
 tomato_bg = PhotoImage(file="./images/tomato.png")
